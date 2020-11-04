@@ -8,7 +8,7 @@ var cols = 7,
 
 function setup() {
   for(let i = 0; i < grid.length; i++) grid[i] = new Array(cols);
-  createCanvas(400, 400);
+  createCanvas(discSize * cols, discSize * rows);
 }
 
 function draw() {
